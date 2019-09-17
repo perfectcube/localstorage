@@ -30,8 +30,8 @@ foo.get('foo') // [ErrorNotFOund]
 foo.has('quxx') // [null, true]
 foo.has('foo') // [ErrorNotFound]
 
-foo.delete('quxx') // [null, true]
-foo.delete('foo') // [ErrorNotFound]
+foo.del('quxx') // [null, true]
+foo.del('foo') // [ErrorNotFound]
 
-foo.delete() // delete everything in the `foo` namespace
+foo.del() // delete everything in the `foo` namespace
 ```
